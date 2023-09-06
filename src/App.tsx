@@ -1,15 +1,9 @@
 import "./App.css";
-import Counter from "./Components/Counter";
-import ToDoList from "./Components/ToDoList";
-import Weather from "./Components/Weather/Weather";
+import ToDoList from "./ToDoList";
 function App() {
   return (
     <div className="App">
-      <Counter initialValue={0} /> 
-      <hr></hr>
       <ToDoList />
-      <hr></hr>
-      <Weather/>
     </div>
   );
 }
